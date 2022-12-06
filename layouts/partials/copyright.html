@@ -1,0 +1,10 @@
+<!-- Please don't remove the information of theme makers. -->
+{{ i18n "hugo_theme" }} <a href="https://github.com/amazingrise/hugo-theme-diary" rel="noreferrer noopener">Diary</a> {{ i18n "by" }} <a href="https://risehere.net/" rel="noreferrer noopener">Rise</a>
+<br>
+<!-- Because this project is under MIT licence. -->
+&copy;
+	{{ if .Site.Copyright }}
+	{{ .Site.Copyright }}
+	{{ else }}
+	{{.Site.Home.Date.Year}} {{.Site.Title}}
+	{{ end }}
